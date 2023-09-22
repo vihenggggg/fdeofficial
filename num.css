@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dangrek', cursive;
+font-family: 'Khmer', sans-serif;
+font-size: larger;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0),rgba(4,9,30,0.7)),url(/image/num.jpeg);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+}
+.logo-1{
+    width: 50%;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+.nav-link ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50);
+    text-align: center;
+    animation: 0.5s;
+    cursor: pointer;
+}
+.text-box h1{
+    font-size: 30px;
+}
+.nav-link ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover {
+    border: 1px solid #5936f4;
+    background: rgb(88, 88, 251);
+    transition: 1s;
+}
+.nav-link ul li::after {
+    content:'';
+    width: 0%;
+    height: 2px;
+    display: block ;
+    background: rgb(203, 148, 9);
+    margin: auto;
+    transition: 0.5;
+}
+.nav-link ul li:hover::after {
+    width: 100%;
+}
+.nav-link ul{
+    padding: 30px;
+}
+/* This is for program css, do not delete it */
+/* .programs{
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/num2.png)
+}
+
+h2{
+    color:#3696dc;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.p1{
+    font-size: 12px;
+    line-height: 24px;
+}
+.container1{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+
+}
+.column{
+    margin: 0 15px 25px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 12),
+    0 1px 2px rgba(0,0,0,24);
+    background: #fff;
+    border-radius: 10px;
+    flex-basis: 33%;
+    cursor: pointer;
+    transition: 0.4s ;
+    box-sizing: border-box;
+
+}
+.column:hover{
+    background:#ddd;
+    border-radius: 12px;
+}
+
+.card{
+    padding: 15px 25px;
+}
+@media screen and (max-width: 992px) {
+    .card {
+        padding: 15px 25px;
+        font-size: xx-small;
+    }
+    .programs {
+        width: 100%;
+        margin: auto;
+        padding-top: 50px;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/num2.png);
+    }
+}
+@media screen and (max-width: 700px) {
+    .container1 {
+        max-width: fit-content;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        padding-top: 25px;
+        padding-bottom: 50px;
+        flex-direction: row;
+    }
+    .column {
+        margin: 0px 25px 25px;
+        box-shadow: 0 1px 3px rgb(0 0 0), 0 1px 2px rgb(0 0 0);
+        background: #fff;
+        border-radius: 10px;
+        flex-basis: 33%;
+        cursor: pointer;
+        transition: 0.4s;
+        box-sizing: border-box;
+    }
+    .card {
+        padding: 15px 25px;
+        font-size: xx-small;
+    }
+    .programs {
+        width: 100%;
+        margin: auto;
+        padding-top: 55px;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/num2.png);
+    }
+} */
+
+
+
+
